@@ -18,8 +18,8 @@
 
 1. Clone o repositório:
     ```bash
-    git clone <URL_DO_SEU_REPOSITORIO>
-    cd <NOME_DO_REPOSITORIO>
+    git clone <https://github.com/rodrigopaz2710/EstruturaDeDados>
+    cd <EstruturaDeDados>
     ```
 
 2. Execute o script de teste:
