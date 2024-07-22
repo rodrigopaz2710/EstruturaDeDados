@@ -48,7 +48,7 @@ int main() {
     clock_t start, end;
     double cpu_time_used;
 
-    // Selection Sort
+
     start = clock();
     selectionSort(arr1, n1);
     end = clock();
@@ -57,7 +57,7 @@ int main() {
     printArray(arr1, n1);
     printf("Time: %f seconds\n\n", cpu_time_used);
 
-    // Insertion Sort
+
     start = clock();
     insertionSort(arr2, n2);
     end = clock();
