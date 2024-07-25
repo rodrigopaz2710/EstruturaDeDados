@@ -1,11 +1,8 @@
 
 - `Makefile`: Arquivo para compilar o programa.
 - `main.c`: Contém a função principal que executa os algoritmos de ordenação e mede o tempo de execução.
-- `selection_sort.c`: Implementação do algoritmo Selection Sort.
-- `selection_sort.h`: Header file para o Selection Sort.
-- `insertion_sort.c`: Implementação do algoritmo Insertion Sort.
-- `insertion_sort.h`: Header file para o Insertion Sort.
-- `test.sh`: Script para compilar e executar o programa.
+- `SelectionSort.c`: Implementação do algoritmo Selection Sort.
+- `InsertionSort.c`: Implementação do algoritmo Insertion Sort.
 
 ## Compilação e Execução
 
@@ -22,12 +19,7 @@
     cd <EstruturaDeDados>
     ```
 
-2. Execute o script de teste:
-    ```bash
-    ./test.sh
-    ```
-
-3. O script irá compilar o programa e executar os casos de teste, exibindo os tempos de execução para cada algoritmo de ordenação.
+2. O script irá compilar o programa e executar os casos de teste, exibindo os tempos de execução para cada algoritmo de ordenação.
 
 ### Compilação Manual
 
