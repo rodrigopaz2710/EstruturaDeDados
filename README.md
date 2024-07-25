@@ -48,9 +48,5 @@ Caso prefira compilar manualmente, siga os passos abaixo:
     ./sort
     ```
 
-## Resultados
 
-O programa executará os algoritmos Selection Sort e Insertion Sort em um array de exemplo e imprimirá os arrays ordenados e os tempos de execução para cada algoritmo.
-
-### Exemplo de Saída
 
