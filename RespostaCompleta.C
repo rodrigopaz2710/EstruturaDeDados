@@ -38,7 +38,7 @@ void insertionSort(int arr[], int n) {
 
 
 int main() {
-    // Exemplo de arrays para teste                            ----- mudar entradas para arquivos que o professor enviou
+    // Exemplo de arrays para teste                            
     int arr1[] = {64, 25, 12, 22, 11};
     int n1 = sizeof(arr1)/sizeof(arr1[0]);
     
