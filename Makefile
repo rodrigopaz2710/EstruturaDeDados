@@ -3,17 +3,17 @@ CFLAGS=-Wall
 
 all: sort
 
-sort: main.o selection_sort.o insertion_sort.o
-    $(CC) $(CFLAGS) -o sort main.o selection_sort.o insertion_sort.o
+sort: main.o SelectionSort.o InsertionSort.o
+    $(CC) $(CFLAGS) -o sort main.o SelectionSort.o InsertionSort.o
 
 main.o: main.c
     $(CC) $(CFLAGS) -c main.c
 
-selection_sort.o: selection_sort.c
-    $(CC) $(CFLAGS) -c selection_sort.c
+SelectionSort.o: SelectionSort.c
+    $(CC) $(CFLAGS) -c SelectionSort.c
 
-insertion_sort.o: insertion_sort.c
-    $(CC) $(CFLAGS) -c insertion_sort.c
+InsertionSort.o: InsertionSort.c
+    $(CC) $(CFLAGS) -c InsertionSort.c
 
 clean:
     rm -f *.o sort
